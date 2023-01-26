@@ -1,0 +1,25 @@
+<suitelet scriptid="customscript_sl_editform">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>EditForm SuiteLet</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>F</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteApps/com.netsuite.editform/sl_editform.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_sl_editform">
+      <allemployees>T</allemployees>
+      <allpartners>T</allpartners>
+      <allroles>T</allroles>
+      <audslctrole></audslctrole>
+      <eventtype></eventtype>
+      <isdeployed>T</isdeployed>
+      <isonline>F</isonline>
+      <loglevel>DEBUG</loglevel>
+      <runasrole></runasrole>
+      <status>RELEASED</status>
+      <title>EditForm SuiteLet</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</suitelet>
